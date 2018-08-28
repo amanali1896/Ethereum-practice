@@ -1,4 +1,4 @@
-pragma solidity ^0.4.17;
+pragma solidity ^0.4.17; //specifies the version of solidity with which we wrote our code
 
 contract Inbox{
   string public message; // its a message accessable by any account
