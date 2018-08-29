@@ -1,15 +1,15 @@
 pragma solidity ^0.4.17; //specifies the version of solidity with which we wrote our code
 
-contract Inbox{
-  string public message; // its a message accessable by any account
-
-  function Inbox(string initialMessage) public {
+contract Inbox{ // name of the contract
+  string public message; // its a message accessable by any account // storage variable, will exist throughout the life
+                          //public means it can be accessed by anyone
+  function Inbox(string initialMessage) public { //constructor function since it has the same name
     message = initialMessage;   
   }
   function setMessage(string newMessage) public {
     message = newMessage;
   }
-  function getMessage() public view returns (string) {
-    return message;
+  function getMessage() public view returns (string) { // fucntion name + function type(public view) + return types
+    return message;                                     //
   }
 }
