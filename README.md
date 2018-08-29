@@ -1,2 +1,2 @@
 # Smart-contracts-practice
-This repository consists of the sample smart contracts
+This repository consists of the sample smart contracts.
