@@ -9,7 +9,8 @@ contract Inbox{ // name of the contract
   function setMessage(string newMessage) public {
     message = newMessage;
   }
-  function getMessage() public view returns (string) { // fucntion name + function type(public view) + return types
-    return message;                                     //
+  function getMessage() public view returns (string) { // function name + function type(public view) + return types
+    return message;                                     // public/private +view/comstant
+                                                        // return is used only with view or constant
   }
 }
